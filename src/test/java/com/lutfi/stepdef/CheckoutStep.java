@@ -16,7 +16,6 @@ public class CheckoutStep  extends BaseTest {
     HomePage homePage;
     CheckoutYourInfoPage checkoutInfoPage = new CheckoutYourInfoPage(driver);
     CheckoutOverviewPage checkoutOverviewPage = new CheckoutOverviewPage(driver);
-
     @Given("user is on the cart page")
 
     @And("user clicks the cart icon")

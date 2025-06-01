@@ -4,25 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75c78cc0-9350-4543-8d24-5f6a8b8df2c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lutfi/page/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lutfi/page/CheckoutOverviewPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lutfi/page/CheckoutYourInfoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lutfi/stepdef/CheckoutStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/addCart.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/checkout.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+    <list default="true" id="75c78cc0-9350-4543-8d24-5f6a8b8df2c3" name="Changes" comment="fixxing error">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lutfi/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lutfi/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lutfi/CucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lutfi/CucumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lutfi/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lutfi/page/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lutfi/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lutfi/page/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lutfi/page/CheckoutOverviewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lutfi/page/CheckoutOverviewPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lutfi/page/CheckoutYourInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lutfi/page/CheckoutYourInfoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lutfi/stepdef/CheckoutStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lutfi/stepdef/CheckoutStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/lutfi/stepdef/CucumberHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lutfi/stepdef/CucumberHooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lutfi/stepdef/HomeStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lutfi/stepdef/HomeStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lutfi/stepdef/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lutfi/stepdef/MyStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +48,7 @@
     "Cucumber Java.Feature: checkout.executor": "Run",
     "Cucumber Java.Scenario: Login with invalid Username and Password.executor": "Run",
     "Cucumber Java.Scenario: Login with valid Username and Password.executor": "Run",
+    "Cucumber Java.Scenario: User fills firstname blank in checkout information.executor": "Run",
     "Gradle.Build SeleniumWithCucumber.executor": "Run",
     "Gradle.CucumberTest.executor": "Run",
     "Gradle.Download Sources.executor": "Run",
@@ -134,15 +122,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Login with invalid Username and Password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User fills firstname blank in checkout information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/checkout.feature" />
       <option name="GLUE" value="com.lutfi.stepdef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SeleniumWithCucumber.test" />
-      <option name="NAME_FILTER" value="^Login with invalid Username and Password$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login with invalid Username and Password$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login with invalid Username and Password" />
+      <option name="NAME_FILTER" value="^User fills firstname blank in checkout information$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User fills firstname blank in checkout information$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User fills firstname blank in checkout information" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -181,10 +169,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: checkout" />
+        <item itemvalue="Cucumber Java.Scenario: User fills firstname blank in checkout information" />
         <item itemvalue="Cucumber Java.Feature: addCart" />
         <item itemvalue="Cucumber Java.Feature: Login" />
         <item itemvalue="Gradle.CucumberTest" />
-        <item itemvalue="Cucumber Java.Scenario: Login with invalid Username and Password" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +185,20 @@
       <option name="presentableId" value="Default" />
       <updated>1742386917881</updated>
     </task>
+    <task id="LOCAL-00001" summary="Penambahan step dan case untuk tugas 19">
+      <option name="closed" value="true" />
+      <created>1748764926177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748764926177</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Penambahan step dan case untuk tugas 19" />
+    <MESSAGE value="fixxing error" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixxing error" />
   </component>
 </project>

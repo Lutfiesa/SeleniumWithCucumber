@@ -1,6 +1,7 @@
 package com.lutfi.page;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -17,19 +18,17 @@ public class CheckoutYourInfoPage {
     By FirstName = By.id("first-name");
     By LastName = By.id("last-name");
     By ZipCode = By.id("postal-code");
-    By buttonContinue = By.id("continue");
-
+    By buttonContinue = By.xpath("//input[@id='continue']");
 
     private WebDriver driver;
     private WebDriverWait wait;
 
     public CheckoutYourInfoPage(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10)); // Timeout 10 detik
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
     public void validateOnCheckoutInfoPage() {
-//        WebElement textCheckoutInfoPage = driver.findElement(titleCheckoutInfoPage);
         WebElement textCheckoutInfoPage = wait.until(ExpectedConditions.visibilityOfElementLocated(CheckoutInfoPage));
         assertTrue(textCheckoutInfoPage.isDisplayed());
         assertEquals("Checkout: Your Information", textCheckoutInfoPage.getText());
