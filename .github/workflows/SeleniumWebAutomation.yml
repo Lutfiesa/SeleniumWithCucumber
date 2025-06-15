@@ -1,0 +1,39 @@
+name: Selenium Web Automation
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+
+    #Downlaod Repo
+    - uses: actions/checkout@v4
+
+    #Setup java
+    - name: Set up JDK
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+
+    #Install Browser
+    - name: Setup Chrome
+      uses: browser-actions/setup-chrome@v1.7.3   
+
+    #Setup Gradlew 
+    - name: Setup Gradle
+      run: chomd +x gradlew
+
+    #Execute Test
+    - name: Execute Test
+      run: ./gradlew cucumber
