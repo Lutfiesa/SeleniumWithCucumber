@@ -32,7 +32,7 @@ jobs:
 
     #Setup Gradlew 
     - name: Setup Gradle
-      run: chomd +x gradlew
+      run: chmod +x gradlew
 
     #Execute Test
     - name: Execute Test
