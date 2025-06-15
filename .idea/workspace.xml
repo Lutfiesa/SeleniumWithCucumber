@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75c78cc0-9350-4543-8d24-5f6a8b8df2c3" name="Changes" comment="fixxing error">
+    <list default="true" id="75c78cc0-9350-4543-8d24-5f6a8b8df2c3" name="Changes" comment="setting headless">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lutfi/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lutfi/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,12 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748768095319</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="setting headless">
+      <option name="closed" value="true" />
+      <created>1749970228503</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749970228503</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Penambahan step dan case untuk tugas 19" />
     <MESSAGE value="fixxing error" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixxing error" />
+    <MESSAGE value="setting headless" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting headless" />
   </component>
 </project>
