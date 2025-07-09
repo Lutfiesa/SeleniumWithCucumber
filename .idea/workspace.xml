@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75c78cc0-9350-4543-8d24-5f6a8b8df2c3" name="Changes" comment="setting headless">
+      <change afterPath="$PROJECT_DIR$/screenshots/HomePage/screenshot_20250601_141848.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/HomePage/screenshot_20250601_142046.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/lutfi/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lutfi/BaseTest.java" afterDir="false" />
     </list>
@@ -51,7 +53,7 @@
     "Gradle.Download Sources.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "test",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/User/OneDrive/Dokumen/Belajar JayJay/Pintro",
     "onboarding.tips.debug.path": "C:/Users/User/OneDrive/Dokumen/Belajar JayJay/SeleniumWithCucumber/src/main/java/org/example/Main.java",
